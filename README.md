@@ -1,7 +1,7 @@
 # rocker_plus_extra
-A docker image that uses [rocker-shiny-verse](https://hub.docker.com/r/rocker/shiny-verse) that has python3.8 and R 4.0.0 with a few extras
+A docker image that uses [rocker-shiny-verse](https://hub.docker.com/r/rocker/shiny-verse) that has python 3.8 and R 4.0.0 installed with a few extras
 
-# Additional R packages
+## Additional R packages
 chron
 shinyjs
 shinybs
@@ -15,10 +15,10 @@ leaflet
 shinyTime
 shinyalert
 
-# Additional Python packages
+## Additional Python packages
 pip
 
-# Additional debian packages
+## Additional debian packages
 vim
 libudunits2-dev
 libgdal-dev
