@@ -1,4 +1,4 @@
-FROM rocker/shiny-verse:4.0.0
+FROM rocker/shiny-verse:3.6.3
 
 RUN apt-get update && \
     apt-get install -y -qq \
