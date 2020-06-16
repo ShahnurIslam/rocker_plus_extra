@@ -26,4 +26,4 @@ ENV LC_ALL en_US.UTF-8
 ENV LANG en_US.UTF-8
 ENV LANGUAGE en_US.UTF-8  
 
-RUN Rscript -e "install.packages(c('chron','shinyjs','shinyBS','V8','shinythemes','reticulate','plotly','reshape','leaflet','shinyTime', 'shinyalert','mapview','gtools'))"
+RUN Rscript -e "install.packages(c('chron','shinyjs','shinyBS','V8','shinythemes','reticulate','plotly','reshape','leaflet','shinyTime', 'shinyalert','mapview','gtools','shinylogs'))"
